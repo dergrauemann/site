@@ -25,7 +25,7 @@ GLUON_FEATURES := \
         autoupdater \
         ebtables-filter-multicast \
         ebtables-filter-ra-dhcp \
-	      ebtables-source-filter \
+	ebtables-source-filter \
         ebtables-limit-arp \
         mesh-batman-adv-15 \
         mesh-vpn-tunneldigger \
