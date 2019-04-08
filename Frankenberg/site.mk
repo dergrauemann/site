@@ -25,7 +25,7 @@ GLUON_FEATURES := \
         autoupdater \
         ebtables-filter-multicast \
         ebtables-filter-ra-dhcp \
-	      ebtables-source-filter \
+	ebtables-source-filter \
         ebtables-limit-arp \
         mesh-batman-adv-15 \
         mesh-vpn-tunneldigger \
@@ -33,6 +33,7 @@ GLUON_FEATURES := \
         respondd \
         status-page \
         web-advanced \
+	web-private-wifi \
         web-wizard
 
 
@@ -42,8 +43,6 @@ GLUON_SITE_PACKAGES := \
         gluon-fffkb-autorestart \
       	gluon-quickfix \
         gluon-tunneldigger-watchdog \
-        # gluon-ebtables-limit-arp \
-      	# gluon-banner \
         gluon-radv-filterd \
         haveged \
         respondd-module-airtime
