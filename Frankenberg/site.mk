@@ -1,7 +1,7 @@
 ###################
 # GLUON Settings
 ###################
-DEFAULT_GLUON_RELEASE := 0.5.0
+DEFAULT_GLUON_RELEASE := 0.6.0
 DEFAULT_GLUON_PRIORITY := 0
 
 # Allow overriding the release number from the command line
