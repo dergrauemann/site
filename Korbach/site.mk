@@ -35,6 +35,7 @@ GLUON_FEATURES := \
         status-page \
         web-advanced \
 	web-private-wifi \
+	config-mode-geo-location-osm \
         web-wizard
 
 
@@ -43,7 +44,6 @@ GLUON_SITE_PACKAGES := \
         iwinfo \
         gluon-fffkb-autorestart \
       	gluon-quickfix \
-        gluon-tunneldigger-watchdog \
         gluon-radv-filterd \
         haveged \
         respondd-module-airtime
