@@ -283,3 +283,5 @@ endif
 ifeq ($(GLUON_TARGET),sunxi)
 	GLUON_SITE_PACKAGES += $(USB_PKGS)
 endif
+
+GLUON_MULTIDOMAIN=1
