@@ -36,6 +36,7 @@ GLUON_FEATURES := \
         web-advanced \
 	web-private-wifi \
 	config-mode-geo-location-osm \
+	gluon-config-mode-domain-select \
         web-wizard
 
 
@@ -43,7 +44,6 @@ GLUON_FEATURES := \
 GLUON_SITE_PACKAGES := \
         iwinfo \
         gluon-fffkb-autorestart \
-	gluon-config-mode-domain-select \
 	gluon-ssid-changer \
       	gluon-quickfix \
         gluon-radv-filterd \
