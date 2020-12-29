@@ -43,6 +43,8 @@ GLUON_FEATURES := \
 GLUON_SITE_PACKAGES := \
         iwinfo \
         gluon-fffkb-autorestart \
+	gluon-config-mode-domain-select \
+	gluon-ssid-changer \
       	gluon-quickfix \
         gluon-radv-filterd \
         haveged \
