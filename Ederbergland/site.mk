@@ -36,6 +36,7 @@ GLUON_FEATURES := \
         web-advanced \
 	web-private-wifi \
 	config-mode-geo-location-osm \
+	config-mode-domain-select \
         web-wizard
 
 
@@ -282,3 +283,5 @@ endif
 ifeq ($(GLUON_TARGET),sunxi)
 	GLUON_SITE_PACKAGES += $(USB_PKGS)
 endif
+
+GLUON_MULTIDOMAIN=1
