@@ -47,7 +47,8 @@ GLUON_SITE_PACKAGES := \
       	gluon-quickfix \
         gluon-radv-filterd \
         haveged \
-        respondd-module-airtime
+        respondd-module-airtime \
+	tecff-ssid-changer
 
 ############################
 # Additional package sets
