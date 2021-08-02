@@ -12,7 +12,7 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 GLUON_PRIORITY ?= ${DEFAULT_GLUON_PRIORITY}
 
 # enable multidomain support
-# GLUON_MULTIDOMAIN=1
+GLUON_MULTIDOMAIN=1
 
 GLUON_LANGS ?= en de
 GLUON_WLAN_MESH ?= 11s
@@ -44,10 +44,13 @@ GLUON_FEATURES := \
 GLUON_SITE_PACKAGES := \
         iwinfo \
         gluon-fffkb-autorestart \
+        gluon-nh-forceautoupdate \
       	gluon-quickfix \
         gluon-radv-filterd \
         haveged \
-        respondd-module-airtime
+        respondd-module-airtime \
+        tecff-ssid-changer
+
 
 ############################
 # Additional package sets
@@ -283,5 +286,3 @@ endif
 ifeq ($(GLUON_TARGET),sunxi)
 	GLUON_SITE_PACKAGES += $(USB_PKGS)
 endif
-
-GLUON_MULTIDOMAIN=1
