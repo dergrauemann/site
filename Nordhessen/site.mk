@@ -25,7 +25,7 @@ GLUON_REGION := eu
 GLUON_FEATURES := \
         autoupdater \
 	client-bridge \
-        ebtables-filter-multicast \
+	ebtables-filter-multicast \
         ebtables-filter-ra-dhcp \
 	ebtables-source-filter \
         ebtables-limit-arp \
