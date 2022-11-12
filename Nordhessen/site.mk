@@ -24,6 +24,7 @@ GLUON_REGION := eu
 
 GLUON_FEATURES := \
         autoupdater \
+	client-bridge
         ebtables-filter-multicast \
         ebtables-filter-ra-dhcp \
 	ebtables-source-filter \
@@ -37,6 +38,7 @@ GLUON_FEATURES := \
 	web-private-wifi \
 	config-mode-geo-location-osm \
 	config-mode-domain-select \
+	web-admin \
 	web-network \
         web-wizard
 
