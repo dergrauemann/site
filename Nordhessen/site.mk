@@ -46,7 +46,6 @@ GLUON_FEATURES := \
 GLUON_SITE_PACKAGES := \
         iwinfo \
         gluon-fffkb-autorestart \
-        gluon-nh-forceautoupdate \
       	gluon-quickfix \
         gluon-radv-filterd \
         haveged \
